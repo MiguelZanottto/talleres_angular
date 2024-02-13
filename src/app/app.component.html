@@ -57,13 +57,13 @@
                         <input type="text" formControlName="direccion" class="form-control" name="direccion">
                     </div>
                     <p *ngIf="this.formularioContacto.get('direccion')?.errors?.['required']">
-                        El nombre es obligatorio.
+                        La direccion es obligatoria.
                     </p>
                     <p *ngIf="this.formularioContacto.get('direccion')?.errors?.['minlength']">
-                        El nombre debe tener como minimo 5 caracteres.
+                        La direccion debe tener como minimo 5 caracteres.
                     </p>
                     <p *ngIf="this.formularioContacto.get('direccion')?.errors?.['maxlength']">
-                        El nombre debe tener como maximo 25 caracteres.
+                        La direccion debe tener como maximo 25 caracteres.
                     </p>
                 </div>
             </div>
